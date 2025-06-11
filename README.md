@@ -10,10 +10,8 @@
 ### 💥 フロントエンド
 
 * **React + Vite**: 高速フロントエンド構築
-* **React Router**: ページ遷移制御
-* **Axios**: Cookie付きHTTP通信（`withCredentials: true`）
 * **Chart.js + ag-Grid**: グラフと表のデータ可視化
-* **axios**: HTTP通信。カスタムインスタンスと認証付き通信を実装
+* **Axios**: HTTP通信。カスタムインスタンスと認証付き通信を実装, Cookie付きHTTP通信（`withCredentials: true`）
 * **react-router-dom**: ページルーティングとナビゲーション管理
 * **react context**: 認証状態のグローバル管理
 
