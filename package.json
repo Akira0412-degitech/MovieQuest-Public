@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "scripts": {
+    "frontend": "npm run dev --prefix my-movie-app",
+    "backend": "node ServerSide_Application/server.js",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+
+    "install:frontend": "npm install --prefix my-movie-app",
+    "install:backend": "npm install --prefix ServerSide_Application",
+    "install": "npm run install:frontend && npm run install:backend",
+
+    "start": "npm run dev",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  }
+}
