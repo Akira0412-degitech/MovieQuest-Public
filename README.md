@@ -1,5 +1,15 @@
 # 🎮 MovieQuest
 
+## 🌍 Languages / 言語
+
+- 🇯🇵 [日本語](#日本語)
+- 🇺🇸 [English](#english)
+
+---
+
+## English
+<details>
+  <summary>▶️ View in English (Click to expand)</summary>
 **MovieQuest** is a full-stack web application that allows users to search, browse, and manage movie information and profiles. The frontend is built with **React (Vite)** and the backend uses **Express + MySQL**, implementing **JWT-based HTTP-only Cookie authentication** for secure access.
 
 ---
@@ -226,9 +236,9 @@ This project was developed as part of the [QUT CAB230](https://www.qut.edu.au/) 
 
 ---
 
-## 🌐 Language
+</details>
 
-This README is available in multiple languages:
-
-* [🇯🇵 Japanese](README.ja.md)
-* [🇬🇧 English (You are here)](README.md)
+## Jp 日本語
+<details>
+  <summary>▶️ 日本語で表示（クリックして展開）</summary>
+</details>
