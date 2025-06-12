@@ -380,7 +380,7 @@ SSL_CERT_PATH=./localhost.pem      # HTTPS証明書のパス
 openssl req -nodes -new -x509 -keyout localhost-key.pem -out localhost.pem
 ```
 
-> 📝 `localhost-key.pem` と `localhost.pem` はプロジェクトのルートまたは `ServerSide_Application/` に配置してください。
+> 📝 `localhost-key.pem` と `localhost.pem` は `ServerSide_Application/` に配置してください。
 
 ### 4️⃣ MySQL データベースの準備
 
